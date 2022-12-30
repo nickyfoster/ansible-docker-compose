@@ -22,8 +22,4 @@ galaxy_info:
     - docker-compose
 
 
-dependencies:
-- name: docker
-  src: git@github.com:nickyfoster/ansible-docker.git
-  scm: git
-  when: configure_docker
+dependencies: []
