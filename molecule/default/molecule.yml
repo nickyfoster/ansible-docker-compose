@@ -4,7 +4,8 @@ dependency:
 driver:
   name: docker
 lint: |   
-      yamllint .
+  set -e
+  yamllint .
 platforms:
   - name: debian-bullseye
     image: "ghcr.io/hspaans/molecule-container-debian:bullseye"

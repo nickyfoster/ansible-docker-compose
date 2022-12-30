@@ -35,9 +35,3 @@
     name: "{{ bin_name }}"
     link: "/usr/local/bin/{{ bin_name }}"
     path: "{{ compose_dir }}/{{ bin_name }}-{{ version }}"
-
-- name: Install Docker compose pip package
-  ansible.builtin.pip:
-    name: "docker-compose"
-    version: "{{ docker_compose_pip_package_version }}"
-    executable: pip3

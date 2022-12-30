@@ -1,7 +1,7 @@
 galaxy_info:
   role_name: docker_compose
   author: Nikita Guliaev
-  namespace: nikita_guliaev
+  namespace: mrf0str
   description: Ansible role for docker-compose installation
   license: license (GPL-2.0-or-later, MIT, etc)
 
